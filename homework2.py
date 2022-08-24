@@ -20,3 +20,16 @@ for i in operations:
     else:
         count -= 1
     print(count)
+
+
+#2
+    #
+    # res = [len(i.split(' ')) for i in sentences]
+    # return max(res)
+
+    # max = 0
+    # for i in sentences:
+    #     n = len(i.split(' '))
+    #     if n > max:
+    #         max = n
+    # return max
