@@ -1,6 +1,6 @@
 #For While
 
-# while True:              #нужно указать условие віхода
+# while True:              #нужно указать условие выхода
 #     print('Hello')
 
 
