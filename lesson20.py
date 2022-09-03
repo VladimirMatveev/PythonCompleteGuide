@@ -55,10 +55,10 @@
 #         pol.append(words)          #тогда мы в список добавляем полиндром
 # print(pol)
 
-my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
-pol1 = []
-for word in my_str:
-        res = word.replace(' ', '').lower()
-        if res == res[::-1]:
-            pol1.append(word)
-print(pol1)
+# my_str = ['Око за око', 'А роза упала на лапу Азора', 'Около Миши молоко']
+# pol1 = []
+# for word in my_str:
+#         res = word.replace(' ', '').lower()
+#         if res == res[::-1]:
+#             pol1.append(word)
+# print(pol1)
