@@ -1,8 +1,8 @@
 class Person:
 
-    def __init__(self, name):
+    def __init__(self, name, age):
         self.name = name
-        self.__age = 20
+        self.__age = age
 
     def print_info(self):
         print(f'Name: {self.name}, Age: {self.__age}')
@@ -25,3 +25,24 @@ class Person:
             self.__age = value
         else:
             print('Wrong age')
+    def __str__(self):
+       #return f'Name: {self.name}'
+        return 'Class ' + self.__class__.__name__
+
+
+class Employee(Person):
+
+    def __init__(self, name, age, company):
+        super().__init__(name, age)      #обращаемся к методу инит родительского суперкласса и отдаем два параметра нейм и адж
+        self.company = company
+
+    def more_info(self):
+        print(f'Name: {self.name} works in {self.company}')
+
+    def print_info(self):
+        super().print_info()
+        print(f'Work: {self.company}')
+
+    def __str__(self):
+       #return f'Name: {self.name}'
+        return 'Class ' + self.__class__.__name__
