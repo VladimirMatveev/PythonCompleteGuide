@@ -13,3 +13,5 @@ person2 = Person('Bob')
 print(person2.age)
 person2.age = 35
 person2.print_info()
+
+#инкапсуляция

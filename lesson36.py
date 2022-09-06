@@ -1,3 +1,4 @@
+#ОСНОВІ ооп КЛАССЫ и обьекты
 class A:
     property1 = 'property 1'
     property2 = 'property 2'       #свойства класса

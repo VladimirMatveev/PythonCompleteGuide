@@ -5,3 +5,5 @@ parser.run()
 # print(parser.raw_html)
 # print(parser.html)
 #print(parser.results)
+
+#класс парсинга
